@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Carolissa";
+  src: url("https://raonasnstorage.blob.core.windows.net/eami-modern/fonts/Carolissa.otf");
+}
+
+body,
+html,
+#root,
+.app {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.recoil-app,
+.react-context-app {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.square__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  background-color: #f1eded;
+  border-radius: 3px;
+  padding: 20px;
+}
+.square__container .square {
+  cursor: pointer;
+  width: 32%;
+  padding-bottom: 32%;
+  margin-bottom: 1%;
+  border: 1px solid;
+  border-radius: 3px;
+  box-sizing: border-box;
+  box-shadow: 4px 0px 7px 1px rgba(231, 231, 231, 59%);
+}
+h2 {
+  font-family: "Carolissa", sans-serif;
+  font-size: 2.5rem;
+}
