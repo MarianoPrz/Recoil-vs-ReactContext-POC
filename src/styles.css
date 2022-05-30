@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "Carolissa";
-  src: url("https://raonasnstorage.blob.core.windows.net/eami-modern/fonts/Carolissa.otf");
-}
-
 body,
 html,
 #root,
@@ -41,6 +36,6 @@ html,
   box-shadow: 4px 0px 7px 1px rgba(231, 231, 231, 59%);
 }
 h2 {
-  font-family: "Carolissa", sans-serif;
+  font-family: "Pacifico", sans-serif;
   font-size: 2.5rem;
 }
